@@ -1,0 +1,98 @@
+.top-row{
+    background: radial-gradient(circle,rgb(231, 234, 242)14%,rgb(224, 229, 238)100%);
+}
+.card-body{
+    padding: 0;
+
+}
+.search-card{
+    padding: 10px;
+    margin: 1% auto;
+    box-shadow: 0.5px 0.5px 2px 0.5px rgba(180, 166, 166, 0.5);
+}
+.form-check-input{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.form-check-input:checked{
+    background-color: rgb(193, 192, 240);
+    color: white;
+}
+.search-card>.card-body{
+    padding: 3px;
+    margin: 8px 3px 1px 20px;
+    display: flex;
+
+}
+.listing-card{
+    margin: 2% auto;
+   
+    box-shadow: 0.5px 0.5px 2px 0.5px rgba(180, 166, 166, 0.5);
+
+}
+.search-card>.card-body>input,select, .btn-warn{
+
+    border: 0.5px solid rgba(102, 99, 99, 0.5);
+    width: 35%;
+    padding: 10px;
+    margin-right: 3.5%;
+    height: auto;
+}
+.search-card>.card-body>select{
+    width: 20%;
+}
+.search-card>.card-body>.btn-warn{
+    width: 10%;
+}
+.search{
+    outline: none;
+}
+.action{
+    display: flex;
+    border: none;
+    outline: none;
+    
+}
+.list-img{
+    width: 4rem;
+    height: 1.5rem;
+   
+    border-radius: 14px;
+    
+}
+tbody>tr>td{
+    padding-top: 10px;
+}
+.info-btn,.edit-info,.delete-info{
+    border: none;
+    margin-left: 5px;
+}
+.card-body>a{
+    color: white;
+    text-decoration: none;
+}
+.card-body>a:hover{
+    background-color: rgb(63, 61, 167);
+    border-bottom: 1px solid rgba(102, 99, 99, 0.5);
+    color: aliceblue;
+    
+}
+tbody>tr>td{
+    padding: 0;
+}
+.info-btn>a{
+    padding: 0;
+    color: rgb(82, 81, 81);
+
+    text-align: left;
+
+}
+.edit-btn>a{
+    padding: 0;
+   color: rgb(82, 81, 81);
+}
+
+.delete-btn>a{
+    padding: 0;
+    color: rgb(82, 81, 81);
+ }

@@ -1,0 +1,52 @@
+.header-container{
+    width: 100%;
+    padding: 0;
+    height: 55px;
+}
+.home-header{
+    font-size: 1.4rem;
+    
+    color: white;
+   padding: 5px;
+   margin: 0;
+    width: 10rem;
+   display: inline-block;
+   text-align: left;
+   position: absolute;
+   left: 3%;
+   top:6px;
+
+}
+.header-icon{
+    display: inline-block;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: -1px;
+    font-weight: 700;
+    width: 4%;
+    position: relative;
+    right: -40%;
+    top:15%;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    background-color: rgb(193, 192, 240);
+    border-radius: 50%;
+}
+
+
+.header-icon>a{
+    color: white;
+    background-color: rgb(193, 192, 240);
+
+}
+.home-container>aside{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 100vh;
+    float: left;
+    border-radius: 1px;
+    box-shadow: 0.5px 0.5px 4px 0.5px rgba(180, 166, 166, 0.5);
+}
+.home-container>section{
+    width: 78%;
+    float: right;
+}

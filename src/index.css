@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+* {
+  box-sizing: border-box;
+}
+body {
+  
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+  background-color: #f3f5f8;
+}
+label{
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.sing-container{
+  margin: 30px;
+}
+label{
+    font-weight: 500;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  .auth-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .auth-inner {
+    width: 450px;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all .3s;
+  }
+  .auth-wrapper .form-control:focus {
+    border-color: #1a0e50;
+    box-shadow: none;
+  }
+  
+ 
+  .nav-sign{
+    text-align: center;
+     padding: 6px;
+     margin: 15px auto;
+     margin-top: -8px;
+  
+    
+ }
+
+ .btn{
+  background-color: rgb(29, 27, 129) ;
+  color: white;
+ }
+ .nav-sign a{
+  display: inline-block;
+
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  width: 50%;
+
+ }
+ .nav-sign a:hover,
+ .nav-sign a:active,
+ .nav-sign a.active
+  {
+    color: rgb(68, 68, 133);
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    border-bottom: 2px solid #3b5270;
+ }
+
+ .activeSign-in{
+   margin-right: -2px;
+
+     padding: 7px 9x;
+     border-radius: 7px;
+    background: radial-gradient(circle,rgb(231, 234, 242)14%,rgb(224, 229, 238)100%);
+ }
+ .activeSign-up{
+  color:rgb(231, 234, 242);
+  background-color: rgb(29, 27, 129) ;
+ }
+

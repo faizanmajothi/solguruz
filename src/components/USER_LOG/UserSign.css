@@ -1,0 +1,9 @@
+.header-container {
+  background-color: rgb(39, 56, 156);
+  text-align: center;
+}
+.header-container > .nav-brand > h1 {
+  color: #ffffff;
+  font-size: xx-large;
+  padding: 5px;
+}

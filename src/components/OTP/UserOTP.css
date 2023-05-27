@@ -1,0 +1,53 @@
+.otp-cotainer{
+    text-align: center;
+    width: 400px;
+    
+    padding: 10px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    background-color: rgb(255, 255, 255);
+}
+.hs{
+    padding: 15px;
+    margin: 10px;
+}
+.otp-cotainer>.hs>h2{
+    color: rgb(49, 49, 238);
+    margin-top: -5px;
+    padding: 10px;
+    font-weight: 200;
+}
+.otp-cotainer>.hs>h4{
+    color:rgb(170, 169, 169);
+}
+.otp-input{
+    width: 86%;
+    margin: 2px auto;
+}
+.otp-cotainer>.otp-input>label{
+    display: block;
+    text-align: left;
+    color: gray;
+}
+.otp-cotainer>.otp-input>input{
+    width: 96%;
+    border-radius: 5px;
+    outline: none;
+    border: 0.5px solid gray;
+    margin:  10px 0;
+    padding: 5px;
+}
+.otp-cotainer>.otp-input>.btn-submit{
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(32, 53, 169);
+}
+.otp-cotainer>.back{
+    color:rgba(32, 53, 169,0.5);
+}

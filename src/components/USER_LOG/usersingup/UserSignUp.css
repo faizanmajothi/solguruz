@@ -1,0 +1,22 @@
+label {
+  color: rgb(143, 143, 143);
+  font-weight: 500;
+  font-family: "Fira Sans", sans-serif;
+  text-align: left;
+}
+.signup-password {
+  position: relative;
+}
+.signup-password > .btn-eye-pass {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+}
+.signup-confirm-password {
+  position: relative;
+}
+.signup-confirm-password > .btn-eye-confirm {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+}

@@ -1,0 +1,23 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+}
+.dashboard>a {
+  color: gray;
+  margin: 10%;
+  padding: 13px;
+  margin-bottom: -5%;
+  text-decoration: none;
+  background-color: white;
+}
+.nav-dashboard {
+    background-color: white;
+  font-size: larger;
+}
+
+.dashboard>a:hover,.dashboard>a:active{
+    width: 85%;
+    border-radius: 10px;
+    border-bottom: 2px solid rgb(188, 188, 211);
+    background-color: rgb(193, 192, 240);
+}

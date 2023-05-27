@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "id": "fmajothi8@gmail.com",
+      "fName": "faizan",
+      "lName": "majothi",
+      "email": "fmajothi8@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456"
+    }
+  ],
+  "user": [
+    {
+      "title": "asdsasa",
+      "img": "C:\\fakepath\\PHOTO-2023-05-24-11-57-07 (1).jpg",
+      "description": "asdsas",
+      "phone": "554122",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+.signin-password {
+  position: relative;
+}
+.signin-password > .btn-eye-pass {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+}
